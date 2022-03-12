@@ -11,14 +11,13 @@
         <div class="wrapper header__wrapper">
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li class="navigation__link"><a href="#home" class="navigation__anchor">Home</a></li>
+                    <li class="navigation__link"><a href="#home" class="navigation__anchor_first">Home</a></li>
                     <li class="navigation__link"><a href="#about" class="navigation__anchor">About me</a></li>
-                    <li class="navigation__link"><a href="#" class="navigation__anchor">Skills</a></li>
-                    <li class="navigation__link"><a href="#" class="navigation__anchor">Portfolio</a></li>
-                    <li class="navigation__link"><a href="#home" class="navigation__anchor">Contacts</a></li>
+                    <li class="navigation__link"><a href="#skills" class="navigation__anchor">Skills</a></li>
+                    <li class="navigation__link"><a href="#portfolio" class="navigation__anchor">Portfolio</a></li>
+                    <li class="navigation__link"><a href="#contacts" class="navigation__anchor">Contacts</a></li>
                 </ul>
             </nav>
-            <br class="header__line">
         </div>
     </header>
     <main class="main">
@@ -26,14 +25,144 @@
             <div class="wrapper promo__wrapper">
                 <div class="promo__content">
                     <h1 class="promo__text">Kseniya Klimova</h1>
-                    <h3 class="promo__info">Web-developer 30 years old, Saratov </h3>
+                    <h4 class="promo__info">Web-developer 30 years old, Saratov </h4>
                     <h4 class="promo__language">ru | eng</h4>
                 </div>
                 <div class="promo__photo">
-                    <span class="icon__photo"><img src="" alt="my photo" class="icon__image"></span>
+                    <span class="icon__photo"><img src="./src/img/photo_me3.jpg" width="943" height="387" alt="my photo" class="icon__image"></span>
+                </div>
+            </div>
+        </section>
+        <section class="about-me" id="about">
+            <div class="wrapper about-me__wrapper">
+                <div class="about-me__content">
+                    <h2 class="about-me__title">About me</h2>
+                    <p class="about-me__text text">Hi,I'm Kseniya - Web-developer from Saratov. I'm interested in programming, JavaScript, HTML, CSS, REACT and everything connected with it.</p>
+                    <p class="about-me__text text">I studied of courses EPAM, RSschool.</p>
+                    <p class="about-me__text text">Ready to implement excellent projects with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="wrapper skills__wrapper">
+                <div class="skills__content">
+                    <h2 class="skill__title">Skills</h2>
+                    <p class="skills__text text">I work in such technologies as</p>
+                    <div class="layout-4-column skills__container">
+                        <div class="tool">
+                            <div class="tool__icon">
+                                <span class="icon-square icon-square_blue">
+                                    <span class="ico ico_text"></span>
+                                </span>
+                            </div>
+                            <h5 class="tool__text">JavaScript</h5>
+                            <div class="tool__stars">
+                                <span class="icon-stars"></span>
+                            </div>
+                        </div>
+                        <div class="tool">
+                            <div class="tool__icon">
+                                <span class="icon-square icon-square_orange">
+                                    <span class="ico ico_text"></span>
+                                </span>
+                            </div>
+                            <h5 class="tool__text">HTML/CSS</h5>
+                            <div class="tool__stars">
+                                <span class="icon-stars"></span>
+                            </div>
+                        </div>
+                        <div class="tool">
+                            <div class="tool__icon">
+                                <span class="icon-square icon-square_blue">
+                                    <span class="ico ico_text"></span>
+                                </span>
+                            </div>
+                            <h5 class="tool__text">Figma</h5>
+                            <div class="tool__stars">
+                                <span class="icon-stars"></span>
+                            </div>
+                        </div>
+                        <div class="tool">
+                            <div class="tool__icon">
+                                <span class="icon-square icon-square_blue">
+                                    <span class="ico ico_text"></span>
+                                </span>
+                            </div>
+                            <h5 class="tool__text">React</h5>
+                            <div class="tool__stars">
+                                <span class="icon-stars"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="wrapper portfolio__wrapper">
+                <h2 class="portfolio__text">Portfolio</h2>
+                <div class="layout-3-column portfolio__container">
+                    <div class="portfolio__image">
+                        <div class="image-first">
+                            <img src="" alt="first-image">
+                        </div>
+                        <div class="portfolio__link"><a href="" class="link">Site 1</a></div>
+                    </div>
+                    <div class="portfolio__image">
+                        <div class="image-second">
+                            <img src="" alt="second-image">
+                        </div>
+                        <div class="portfolio__link"><a href="" class="link">Site 2</a></div>
+                    </div>
+                    <div class="portfolio__image">
+                        <div class="image-third">
+                            <img src="" alt="third-image">
+                        </div>
+                        <div class="portfolio__link"><a href="" class="link">Site 3</a></div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer" id="contacts">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__content">
+                <h2 class="footer-contacts">Contacts</h2>
+                <p class="footer__text">Want to know more or just chat?
+                    You are welcome!</p>
+                <div class="footer__button">
+                    <button class="button footer__message"><a href="mailto:ksuoxy773@gmail.com" class="mail-link">Send message</a></button>
+                </div>
+            </div>
+            <div class="layout-4-column footer__icons">
+                <div class="footer__icon">
+                    <span class="icon-black-square">
+                        <span class="ico ico-in"></span>
+                    </span>
+                </div>
+                <div class="footer__icon">
+                    <span class="icon-black-square">
+                        <span class="ico ico-instagram"></span>
+                    </span>
+                </div>
+                <div class="footer__icon">
+                    <span class="icon-black-square">
+                        <span class="ico ico-github"></span>
+                    </span>
+                </div>
+                <div class="footer__icon">
+                    <span class="icon-black-square">
+                        <span class="ico ico-vk"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__description">
+                <div class="describe-icons">
+                    <p class="footer__icons-text">Visit me on
+                        LinkedIn, Instagram, Github, Vk
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

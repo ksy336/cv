@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__link {
+  padding-right: 155px;
+  list-style-type: none;
+}
+
+.navigation__anchor_first {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+.navigation__anchor {
+  text-decoration: none;
+  color: $color-text;
+}
+

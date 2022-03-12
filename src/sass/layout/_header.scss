@@ -1,0 +1,11 @@
+.header  {
+  padding: 33px 0 32px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
