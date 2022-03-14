@@ -1,0 +1,34 @@
+.promo {
+  padding-top: 39px;
+  padding-bottom: 100px;
+}
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.promo__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.promo__text {
+  max-width: 124px;
+}
+
+.promo__info {
+  @extend %font-add;
+  @include font($size: 1.8rem, $height: 2.2rem);
+  max-width: 155px;
+}
+
+.promo__language {
+  text-transform: uppercase;
+  transform: rotate(270deg);
+}
+
+.text-grey {
+  color:$color-text;
+}

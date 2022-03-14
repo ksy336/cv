@@ -1,0 +1,22 @@
+.skills {
+  padding-top: 91px;
+}
+
+.skills__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill__title {
+  text-align: center;
+  margin: 0;
+}
+
+.skills__text {
+  margin-top: 68px;
+  margin-bottom: 0;
+  @extend %font-add;
+  @include font($size: 1.8rem, $height: 2.2rem);
+}

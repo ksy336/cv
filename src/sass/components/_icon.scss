@@ -1,0 +1,36 @@
+.icon-square {
+  width: 89px;
+  height: 89px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-square_blue {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+  border: 5px solid $color-squareBlue;
+}
+
+.icon-square_orange {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+  border: 5px solid $color-squareOrange;
+}
+
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_text {
+  @include font($size: 1.8rem, $height: 2.2rem);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-squareBlue;
+}
+
+.ico_text-html {
+  color: $color-squareOrange;
+  flex-wrap: wrap;
+}

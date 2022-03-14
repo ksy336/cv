@@ -1,0 +1,41 @@
+.about-me {
+  background: $color-background;
+}
+
+.about-me__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+
+.about-me__title {
+  text-align: center;
+  margin: 0;
+}
+
+.about-me__info {
+  max-width: 485px;
+  @extend %font-add;
+  text-align: center;
+}
+
+.about-me__text {
+  margin-bottom: 25px;
+
+}
+
+.about-me__epam {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.about-me__projects {
+  margin: 0;
+}

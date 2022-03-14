@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-  @include font($size: 1.8rem, $height: 2.2rem);
+  @include font($size: 3.4rem, $height: 4.2rem);
 }
 
 h4 {
@@ -20,5 +20,9 @@ h4 {
 }
 
 h5 {
+  @include font($size: 1.6rem, $height: 2.0rem);
+}
+
+h6 {
   @include font($size: 1.4rem, $height: 1.7rem);
 }

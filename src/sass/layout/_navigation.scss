@@ -1,7 +1,6 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .navigation__link {
@@ -17,5 +16,6 @@
 .navigation__anchor {
   text-decoration: none;
   color: $color-text;
+  white-space: nowrap;
 }
 
