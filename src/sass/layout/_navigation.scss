@@ -17,5 +17,8 @@
   text-decoration: none;
   color: $color-text;
   white-space: nowrap;
+  &:hover {
+    color: $color-primary;
+  }
 }
 

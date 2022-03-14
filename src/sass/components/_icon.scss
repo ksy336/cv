@@ -16,6 +16,17 @@
   border: 5px solid $color-squareOrange;
 }
 
+.icon-square_violet {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+  border: 5px solid $color-squareViolet;
+}
+
+.icon-square_figma {
+  background-image: url("../img/figma.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .ico {
   cursor: pointer;
   display: inline-block;
@@ -33,4 +44,21 @@
 .ico_text-html {
   color: $color-squareOrange;
   flex-wrap: wrap;
+}
+
+.ico_text-react {
+  color: $color-squareViolet;
+}
+
+.icon-stars {
+  background-image: url("../img/Star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 26.07px;
+  height: 26px;
+}
+
+.icon-stars_grey {
+  background-image: url("../img/grey-star.svg");
 }

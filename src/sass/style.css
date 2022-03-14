@@ -417,11 +417,11 @@ ul {
   box-sizing: border-box;
 }
 
-body {
+body, .mail-link, .button {
   font-family: "Gilroy-Bold", sans-serif;
 }
 
-.skills__text, .about-me__info, .promo__info {
+.skills__text, .about-me__info, .promo__info, .footer__icons-text, .footer__text {
   font-family: "Gilroy-Medium", sans-serif;
 }
 
@@ -432,6 +432,45 @@ body {
   padding: 30px 0 30px 0;
   border-bottom: 1px solid #828282;
   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.footer {
+  padding-top: 114px;
+  padding-bottom: 123px;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contacts {
+  text-align: center;
+  margin: 0;
+}
+
+.footer__text {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+  margin: 20px 0 29px;
+  width: 275px;
+}
+
+.describe-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__icons-text {
+  width: 243px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #828282;
+  margin: 0;
 }
 
 .navigation {
@@ -454,12 +493,14 @@ body {
   color: #828282;
   white-space: nowrap;
 }
+.navigation__anchor:hover {
+  color: #070707;
+}
 
 .layout-4-column {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 83px;
   width: 943px;
 }
 
@@ -552,6 +593,7 @@ body {
 
 .skills {
   padding-top: 91px;
+  padding-bottom: 110px;
 }
 
 .skills__wrapper {
@@ -559,6 +601,10 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.skills__container {
+  padding-top: 83px;
 }
 
 .skill__title {
@@ -592,6 +638,17 @@ body {
   border: 5px solid #FF7F18;
 }
 
+.icon-square_violet {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+  border: 5px solid #D8A1FF;
+}
+
+.icon-square_figma {
+  background-image: url("../img/figma.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .ico {
   cursor: pointer;
   display: inline-block;
@@ -612,8 +669,82 @@ body {
   flex-wrap: wrap;
 }
 
+.ico_text-react {
+  color: #D8A1FF;
+}
+
+.icon-stars {
+  background-image: url("../img/Star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 26.07px;
+  height: 26px;
+}
+
+.icon-stars_grey {
+  background-image: url("../img/grey-star.svg");
+}
+
 .tool__icon {
   margin: 0 0 5px;
+}
+
+.tool__text {
+  color: #828282;
+  margin: 23px 0 0;
+}
+
+.tool__stars {
+  margin: 41px 0 0;
+  display: inline-flex;
+  justify-content: center;
+}
+.tool__stars > * {
+  margin: 0 9px 0 0;
+}
+
+.portfolio {
+  padding-top: 110px;
+  padding-bottom: 96px;
+  background: #F6F6F6;
+}
+
+.portfolio__text {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+  transition: all 0.3s;
+  padding: 12px 29px;
+}
+.button:hover {
+  background: #828282;
+  transition: all 0.3s;
+}
+
+.footer__message {
+  background: #070707;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+}
+
+.footer__button {
+  display: flex;
+  align-items: center;
+  margin: 0 0 85px;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 }
 
 html {

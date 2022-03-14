@@ -1,0 +1,33 @@
+.button {
+  cursor: pointer;
+  @include font($size: 1.8rem, $height: 2.2rem);
+  @extend %font-primary;
+  text-align: center;
+  transition: all .3s;
+  padding: 12px 29px;
+
+  &:hover {
+    background: $color-text;
+    transition: all .3s;
+  }
+}
+
+.footer__message {
+  background: $color-primary;
+  color: $color-white;
+  border: none;
+  border-radius: 30px;
+}
+
+.footer__button {
+  display: flex;
+  align-items: center;
+  margin: 0 0 85px;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: $color-white;
+  @include font($size: 1.8rem, $height: 2.2rem);
+  @extend %font-primary;
+}

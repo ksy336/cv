@@ -1,5 +1,6 @@
 .skills {
   padding-top: 91px;
+  padding-bottom: 110px;
 }
 
 .skills__wrapper {
@@ -9,14 +10,18 @@
   align-items: center;
 }
 
-.skill__title {
-  text-align: center;
-  margin: 0;
+.skills__container {
+  padding-top: 83px;
 }
 
-.skills__text {
-  margin-top: 68px;
-  margin-bottom: 0;
-  @extend %font-add;
-  @include font($size: 1.8rem, $height: 2.2rem);
-}
+.skill__title {
+    text-align: center;
+    margin: 0;
+  }
+
+  .skills__text {
+    margin-top: 68px;
+    margin-bottom: 0;
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.2rem);
+  }
